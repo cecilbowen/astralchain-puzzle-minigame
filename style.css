@@ -1,0 +1,105 @@
+.gridsquare {
+    border: 1px solid;
+    position: relative;
+    z-index: -2;
+}
+
+.boardHolder {
+    display: inline-block;
+}
+
+.moveListHolder {
+    display: inline-block;
+}
+
+.levelPicker {
+    position: absolute;
+    top: 75vh;
+    margin-left: 0.7em;
+    font-family: cursive;
+    font-size: large;    
+}
+
+.levelPickerOld {
+    display: flex;
+    margin-left: 3em;
+    font-family: cursive;
+    font-size: large;
+}
+
+.loadButton {
+    position: absolute;
+    top: 72vh;
+    margin-left: 1em;
+}
+
+.loadButtonOld {
+    display: flex;
+    float: right;
+    margin-right: 25vw;
+    margin-top: -2em;
+}
+
+.moveList {
+    display: inline-block;
+    width: 40em;
+    height: 35em;
+    border: 1px solid;
+    overflow-y: auto;
+    margin-left: 2em;
+    margin-bottom: 4em;
+}
+
+.timerDiv {
+    display: inline-block;
+    font-family: cursive;
+    font-size: xx-large;
+    text-decoration: overline;
+}
+
+.instructions {
+    font-family: monospace;
+    font-weight: 500;
+    padding: 0.5em;
+    border-bottom: 1px solid;
+    background-color: black;
+    color: white;
+}
+
+.move {
+    font-family: monospace;
+    padding-left: 0.5em;
+    background-color: beige;
+    border: 1px solid green;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: -1em;
+}
+
+.board {
+    display: flex;
+}
+
+.vehicleDiv {
+    border: 1px solid;
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+    opacity: 0.6;
+}
+
+.backText {
+    position: absolute;
+    font-size: xx-large;
+    text-align: center;
+    top: 41px;
+    font-family: cursive;
+    font-weight: bold;
+    color: lightgray;
+    z-index: -1;
+}
+
+.canvasDiv {
+    z-index: 1;
+    position: absolute;
+}
